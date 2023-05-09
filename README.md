@@ -15,6 +15,8 @@ The raw data from Code Search Net (https://zenodo.org/record/7857872)
 ### [CodeXGLUE](https://github.com/microsoft/CodeXGLUE/tree/main)
 
 # Usage
+## Pre-trained Model
+We will publish our pre-trained models after the paper is accepted.
 
 ## Fine-tuning Model
 Task can be one of the following tasks. ['django', 'concode', 'codetrans', 'repair', 'assert', 'conala', 'test', 'repairme', 'transj2c', 'transc2j', 'commentjava', 'commentpython', 'mbpp', 'searchadv', 'searchcos']
