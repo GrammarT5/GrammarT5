@@ -17,10 +17,15 @@ The raw data from Code Search Net (https://zenodo.org/record/7857872)
 # Usage
 
 ## Fine-tuning Model
+Task can be one of the following tasks. ['django', 'concode', 'codetrans', 'repair', 'assert', 'conala', 'test', 'repairme', 'transj2c', 'transc2j', 'commentjava', 'commentpython', 'mbpp', 'searchadv', 'searchcos']
 ```python
 sh run.sh
 ```
-The saved model is ```checkModel/best_model.cpkt```.
+The saved model is ```checkModel[task]```.
+## Testing Model
+```python
+sh eval.sh
+```
 
 # Dependency
 * Python 3.7
